@@ -21,3 +21,6 @@ DirectorSchema.virtual("name").get(function () {
 DirectorSchema.virtual("url").get(function () {
 	return "director/" + this._id;
 });
+
+// export model
+module.exports = mongoose.model("Director", DirectorSchema);
