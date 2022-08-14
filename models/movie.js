@@ -8,7 +8,7 @@ let MovieSchema = new Schema({
 	release_date: { type: Date },
 	rating: { type: Number },
 	decription: { type: String },
-	img_url: { type: string },
+	img_url: { type: String },
 });
 
 // Virtual for movie's URL
