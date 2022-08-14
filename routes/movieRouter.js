@@ -27,6 +27,6 @@ router.get("/:id/update", movie_controller.movie_update_get);
 router.post("/:id/update", movie_controller.movie_update_post);
 
 // GET request for one movie
-router.get("/movie/:id", movie_controller.movie_detail);
+router.get("/:id", movie_controller.movie_detail);
 
 module.exports = router;

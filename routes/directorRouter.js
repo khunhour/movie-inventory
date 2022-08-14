@@ -27,6 +27,6 @@ router.get("/:id/update", director_controller.director_update_get);
 router.post("/:id/update", director_controller.director_update_post);
 
 // GET request for one director
-router.get("/director/:id", director_controller.director_detail);
+router.get("/:id", director_controller.director_detail);
 
 module.exports = router;

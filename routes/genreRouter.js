@@ -27,6 +27,6 @@ router.get("/:id/update", genre_controller.genre_update_get);
 router.post("/:id/update", genre_controller.genre_update_post);
 
 // GET request for one genre
-router.get("/genre/:id", genre_controller.genre_detail);
+router.get("/:id", genre_controller.genre_detail);
 
 module.exports = router;
