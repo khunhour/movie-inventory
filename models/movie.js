@@ -7,7 +7,7 @@ let MovieSchema = new Schema({
 	genre: [{ type: Schema.Types.ObjectId, ref: "Genre" }],
 	release_date: { type: Date },
 	rating: { type: Number },
-	decription: { type: String },
+	description: { type: String },
 	img_url: { type: String },
 });
 
