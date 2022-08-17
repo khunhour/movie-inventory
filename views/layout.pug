@@ -50,3 +50,31 @@ html(lang='en')
                   a.dropdown-item(href="/genre/create") Create a genre
   body
     block content
+
+  footer.py-3.mt-5
+    div.row
+      div.col-3.col-md-3.mb-2
+        h5 Views
+        ul.nav.flex-column
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/movie/all") View all movies
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/director/all") View all directors
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/genre/all") View all genres
+      div.col-3.col-md-3.mb-2
+        h5 Create
+        ul.nav.flex-column
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/movie/create") Create a movie
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/director/create") Create a director
+          li.nav-item
+            a.nav-link.text-muted.p-0(href="/genre/create") Create a genre
+    hr
+    div.d-flex.flex-column.flex-sm-row.justify-content-between
+      p &copy; 2022 khunhour
+      ul.list-unstyled.d-flex
+        li.ms-3
+          a.link-dark(href="#")
+            i.bi.bi-github.fs-5
